@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"5af942346cdafedf","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Скрины/Состав приложения.png","x":-231,"y":-480,"width":400,"height":203},
+		{"id":"64b3c1cb2713f42e","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/app_structureApp.swift.md","x":640,"y":-186,"width":679,"height":400},
+		{"id":"1e529efe0645d220","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/AppRootView.swift.md","x":1520,"y":-40,"width":868,"height":668},
+		{"id":"2484a4f1e5cd9fc4","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/AppDIContainer.swift.md","x":1520,"y":-560,"width":680,"height":425},
+		{"id":"4a6b2a415eac4b54","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/SessionStore.md","x":2320,"y":-501,"width":480,"height":315},
+		{"id":"52b59ed5cb2c0e60","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Скрины/Линейная схема.png","x":-421,"y":-236,"width":780,"height":50},
+		{"id":"03dec74add575e1b","type":"text","text":"Точка Входа","x":240,"y":-11,"width":160,"height":50},
+		{"id":"dae6336ed08edc9e","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/AuthModule/AuthConfigurator.swift.md","x":828,"y":814,"width":665,"height":565},
+		{"id":"ec4e83ff333e3c4d","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/AuthModule/AuthWorker.swift.md","x":1299,"y":1694,"width":442,"height":406},
+		{"id":"f1c0702285c53b67","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/AuthModule/AuthView.swift.md","x":827,"y":1697,"width":400,"height":457},
+		{"id":"dbf4ef7c5a6c3d43","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/AuthModule/AuthContracts.swift.md","x":227,"y":814,"width":440,"height":565},
+		{"id":"8efd3673a2dc211d","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/AuthModule/AuthInteractor.seift.md","x":-93,"y":1694,"width":828,"height":1040},
+		{"id":"7ee94e2c8c60e0b0","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/AuthModule/AuthPresenter.swift.md","x":1828,"y":1694,"width":560,"height":460},
+		{"id":"e8df4eecb6d8f52c","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/MainModule/MainConfigurator.swift.md","x":2640,"y":814,"width":652,"height":565},
+		{"id":"a8c4ad4cc39c8ffe","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/MainModule/MainContracts.swift.md","x":3400,"y":955,"width":440,"height":283},
+		{"id":"8a5d4e033cde7368","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/MainModule/MainInteractor.swift.md","x":2640,"y":1694,"width":880,"height":586},
+		{"id":"0d81e23c808e1b83","type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/MainModule/MainPresenter.swift.md","x":3620,"y":1694,"width":540,"height":426},
+		{"id":"b49ccf80d1a5c49b","x":4240,"y":1694,"width":400,"height":466,"type":"file","file":"Мобильная разработка/Пример архитектуры приложения/Приложение/MainModule/MainView.swift.md"}
+	],
+	"edges":[
+		{"id":"d2ca66277e2d5daa","fromNode":"64b3c1cb2713f42e","fromSide":"right","toNode":"1e529efe0645d220","toSide":"left"},
+		{"id":"e3ee2c03f61861cd","fromNode":"64b3c1cb2713f42e","fromSide":"right","toNode":"2484a4f1e5cd9fc4","toSide":"left"},
+		{"id":"55bdeb10cb09d341","fromNode":"2484a4f1e5cd9fc4","fromSide":"right","toNode":"4a6b2a415eac4b54","toSide":"left"},
+		{"id":"3102f2d0df497f44","fromNode":"1e529efe0645d220","fromSide":"bottom","toNode":"dae6336ed08edc9e","toSide":"top"},
+		{"id":"5e45fc2e94202b2d","fromNode":"dae6336ed08edc9e","fromSide":"left","toNode":"dbf4ef7c5a6c3d43","toSide":"right"},
+		{"id":"b7473efc7f84ff45","fromNode":"03dec74add575e1b","fromSide":"right","toNode":"64b3c1cb2713f42e","toSide":"left"},
+		{"id":"221b51ff2e457c42","fromNode":"dae6336ed08edc9e","fromSide":"bottom","toNode":"ec4e83ff333e3c4d","toSide":"top"},
+		{"id":"00c9542b1141eac3","fromNode":"dae6336ed08edc9e","fromSide":"bottom","toNode":"f1c0702285c53b67","toSide":"top"},
+		{"id":"595bf8cc7720832a","fromNode":"dae6336ed08edc9e","fromSide":"bottom","toNode":"7ee94e2c8c60e0b0","toSide":"top"},
+		{"id":"dc5e906ed7c437eb","fromNode":"dae6336ed08edc9e","fromSide":"bottom","toNode":"8efd3673a2dc211d","toSide":"top"},
+		{"id":"580585ec51d1d1c6","fromNode":"1e529efe0645d220","fromSide":"bottom","toNode":"e8df4eecb6d8f52c","toSide":"top"},
+		{"id":"c66e8349baf388ad","fromNode":"e8df4eecb6d8f52c","fromSide":"right","toNode":"a8c4ad4cc39c8ffe","toSide":"left"},
+		{"id":"80ede98487a220da","fromNode":"e8df4eecb6d8f52c","fromSide":"bottom","toNode":"8a5d4e033cde7368","toSide":"top"},
+		{"id":"d8630916d1319a78","fromNode":"e8df4eecb6d8f52c","fromSide":"bottom","toNode":"0d81e23c808e1b83","toSide":"top"},
+		{"id":"9b042f03d9bb5a55","fromNode":"e8df4eecb6d8f52c","fromSide":"bottom","toNode":"b49ccf80d1a5c49b","toSide":"top"}
+	]
+}
